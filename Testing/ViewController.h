@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <EventKit/EventKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
 
+    IBOutlet UIStepper *stepperObj;
+}
+-(IBAction)stepperTapped;
 @end

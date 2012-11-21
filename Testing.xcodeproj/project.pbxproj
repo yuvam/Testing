@@ -24,6 +24,8 @@
 		1CC06A161613435700635AB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC069EE1613435700635AB4 /* Foundation.framework */; };
 		1CC06A1E1613435700635AB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CC06A1C1613435700635AB4 /* InfoPlist.strings */; };
 		1CC06A211613435700635AB4 /* TestingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC06A201613435700635AB4 /* TestingTests.m */; };
+		1CD4A96716427CF7000D6FA6 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD4A96516427CF7000D6FA6 /* EventKit.framework */; };
+		1CD4A96816427CF7000D6FA6 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD4A96616427CF7000D6FA6 /* EventKitUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		1CC06A1D1613435700635AB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1CC06A1F1613435700635AB4 /* TestingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestingTests.h; sourceTree = "<group>"; };
 		1CC06A201613435700635AB4 /* TestingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingTests.m; sourceTree = "<group>"; };
+		1CD4A96516427CF7000D6FA6 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		1CD4A96616427CF7000D6FA6 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD4A96716427CF7000D6FA6 /* EventKit.framework in Frameworks */,
+				1CD4A96816427CF7000D6FA6 /* EventKitUI.framework in Frameworks */,
 				1CC069ED1613435700635AB4 /* UIKit.framework in Frameworks */,
 				1CC069EF1613435700635AB4 /* Foundation.framework in Frameworks */,
 				1CC069F11613435700635AB4 /* CoreGraphics.framework in Frameworks */,
@@ -108,6 +114,8 @@
 		1CC069EB1613435700635AB4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1CD4A96516427CF7000D6FA6 /* EventKit.framework */,
+				1CD4A96616427CF7000D6FA6 /* EventKitUI.framework */,
 				1CC069EC1613435700635AB4 /* UIKit.framework */,
 				1CC069EE1613435700635AB4 /* Foundation.framework */,
 				1CC069F01613435700635AB4 /* CoreGraphics.framework */,
@@ -460,6 +468,7 @@
 				1CC06A261613435700635AB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CC06A271613435700635AB4 /* Build configuration list for PBXNativeTarget "TestingTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +477,7 @@
 				1CC06A291613435700635AB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
